@@ -1,0 +1,58 @@
+{
+    "hero": {
+      "title": "Eduardo Pacheco",
+      "subtitle": "Desenvolvedor Java | Spring Boot | REST API | Docker | BackEnd | FullStack",
+      "downloadCV": "Baixar CV",
+      "contactMe": "Contate-me"
+    },
+
+    "nav": {
+      "home": "Home",
+      "about": "Sobre Mim",
+      "projects": "Projetos"
+    },
+
+    "about": {
+      "exp": "Experiência",
+      "descexp1": "2 anos Desenvolvedor Java - 14 anos na área de TI - 9 anos como consultor ERP.",
+      "edu": "Educação",
+      "descexp2": "Tecnólogo em Análise e Desenvolvimento de Sistemas - Residência TIC/SERRATEC.",
+      "descexp3": "Desenvolvedor java com mais de 14 anos de experiência em TI, sendo 9 anos como Consultor ERP, apaixonado por resolver problemas complexos e aprender coisas novas. Possuo visão ampla do mercado, habilidades em back- end (Java, C#), APIs REST, bancos de dados (SQL, Postgre) e front-end (JavaScript, React, CSS, HTML), com experiência em criação e coordenação de projetos, processos ERP, entre outros.",
+      "descexp4": "Participei de projetos que abrangeram as tecnologias necessárias para um desenvolvimento web completo. No projeto final do SERRATEC em parceria com a UFRJ, trabalhei na parte do Back-end, efetuando desde da estruturação do banco de dados a comunicação com o front, utilizando principalmente JAVA, REST API e SPRING.",
+      "skill": "Tecnologias"
+    },
+
+    "project1": {
+            "title": "Projeto API - Ecommerce",
+            "description": "Estudo de REST API (BackEnd).",
+            "techDescription": "Tecnologias utilizadas: Java, Spring, PostgreSQL, JWT e Swagger.",
+            "button1Label": "Código GitHub" 
+      },
+
+      "project2": {
+            "title": "Projecto de Vendas - Java POO",
+            "description": "Estudo Java (POO).",
+            "techDescription": "Tecnologias utilizadas: Java e PostgreSQL.",
+            "button1Label": "Código GitHub" 
+      },
+
+      "project3": {
+            "title": "Projeto React - Ecommerce",
+            "description": "Estudo de React/JavaScript (FrontEnd).",
+            "techDescription": "Tecnologias utilizadas: React, JavaScript, HTML, CSS e Node.",
+            "button1Label": "Código GitHub" 
+      },
+
+      "project4": {
+            "title": "Projeto React Native - CardGame",
+            "description": "Estudo React Native/TypeScript (Mobile).",
+            "techDescription": "Tecnologias utilizadas: React Native, TypeScript, HTML, CSS e Node.",
+            "button1Label": "Código GitHub" 
+      },
+
+      "footer": {
+            "right": "Todos os direitos reservados."
+      }
+
+
+}

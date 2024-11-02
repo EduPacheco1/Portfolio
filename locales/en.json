@@ -1,0 +1,56 @@
+{
+    "hero": {
+      "title": "Eduardo Pacheco",
+      "subtitle": "Java Developer | Spring Boot | REST API | Docker | BackEnd | FullStack",
+      "downloadCV": "Download CV",
+      "contactMe": "Contact me"
+    },
+
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projetcs"
+    },
+
+    "about": {
+        "exp": "Experience",
+        "descexp1": "2 year as Java Developer, 14 years in IT industry, 9 years as ERP Consultant",
+        "edu": "Education",
+        "descexp2": "Bachelor's degree in Computer Science, SERRATEC/UFRJ partnership project",
+        "descexp3": "Java developer with over 14 years of IT experience, including 9 years as an ERP Consultant. Passionate about solving complex problems and learning new things. I have a broad market view, skills in back-end (Java, C#), REST APIs, databases (SQL, PostgreSQL) and front-end (JavaScript, React, CSS, HTML), with experience in project creation and coordination, ERP processes, among others.",
+        "descexp4": "I've participated in projects that covered all the technologies necessary for full-stack web development. In the final SERRATEC project in partnership with UFRJ, I worked on the back-end, from database structuring to front-end communication, using mainly JAVA, REST API and SPRING.",
+        "skill": "Skills"
+      },
+
+      "project1": {
+            "title": "Project API - Ecommerce",
+            "description": "REST API study project. (BackEnd)",
+            "techDescription": "Built with: Java, Spring, PostgreSQL, JWT and Swagger.",
+            "button1Label": "View Code" 
+      },
+
+      "project2": {
+            "title": "Project Sales - Java OOP",
+            "description": "Java (OOP) study project.",
+            "techDescription": "Built with: Java and PostgreSQL.",
+            "button1Label": "View Code" 
+      },
+
+      "project3": {
+            "title": "Project React - Ecommerce",
+            "description": "React/JavaScript study project (FrontEnd).",
+            "techDescription": "Built with: React, JavaScript, HTML, CSS and Node.",
+            "button1Label": "View Code" 
+      },
+
+      "project4": {
+            "title": "Project React Native - CardGame",
+            "description": "React Native/TypeScript study project (Mobile).",
+            "techDescription": "Built with: React Native, TypeScript, HTML, CSS and Node.",
+            "button1Label": "View Code" 
+      },
+
+      "footer": {
+            "right": "All rights reserved."
+      }
+}
