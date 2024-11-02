@@ -35,10 +35,10 @@ const Hero = () => {
     }));
 
     const handleDownloadCV = () => {
-        const pdfUrl = '/CurriculoAtualizado.pdf';
+        const pdfUrl = '/EduardoPachecoCV.pdf';
         const link = document.createElement('a');
         link.href = pdfUrl;
-        link.download = 'CurriculoAtualizado.pdf';
+        link.download = 'EduardoPachecoCV.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -47,7 +47,7 @@ const Hero = () => {
     const handleContactMe = () => {
         const yourEmail = "edu.pacheco.carvalho@gmail.com";
         const subject = "Contact from Eduardo Pacheco Portfolio";
-        const body = "Hi Eduardo,\n\n I'm reaching out from your portfolio website. ";
+        const body = t('hero.email');
 
         const emailLink = `mailto:${yourEmail}?subject=${subject}&body=${encodeURIComponent(body)}`;
 
@@ -58,11 +58,11 @@ const Hero = () => {
 
     return (
         <StyledHero>
-            <Container maxWidth="lg">
-                <Grid container spacing={4}>
+            <Container maxWidth="lg" sx={{ marginLeft: '14%'}}>
+                <Grid container spacing={10}>
                     <Grid item xs={12} md={6} lg={4}>
                         <Box position="relative">
-                            <Box position="absolute" width={"140%"} top={-100} right={0}>
+                            <Box position="absolute" width={"140%"} top={-120} right={100}>
                                 <AnimatedBackground />
                             </Box>
                             <Box position="relative" textAlign="center">

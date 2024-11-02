@@ -42,7 +42,7 @@ const About = () => {
       <Container maxWidth="lg">
         <Content>
           <Header variant="h2" align="center" paddingTop={5} gutterBottom>
-          {t('nav.about')}
+          {t('nav.about2')}
           </Header>
 
           <Box sx={{ mt: 4, mb: 4 }}>

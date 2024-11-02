@@ -96,7 +96,7 @@ const Projects = () => {
 
         <StyledProject>
         <Container maxWidth="lg">
-            <Typography color="primary.main" variant="h2" textAlign="center" pt = {5} mb={5}>Projects</Typography>
+            <Typography color="primary.main" variant="h2" textAlign="center" pt = {5} mb={5}>{t('nav.projects')}</Typography>
             <Grid container spacing={4}>
                 {projects.map((project, index) => (
                     <Grid item xs={12} sm={6} md={6} lg={6} xl={6} key={index}>

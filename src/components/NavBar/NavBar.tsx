@@ -47,7 +47,7 @@ const NavBar = () => {
   return (
     <AppBar position="fixed">
       <StyledToolbar>
-        <NavigationContainer>
+        <NavigationContainer sx={{ marginLeft: '5%'}}>
           <MenuItem onClick={() => scrollToSection('hero')}>{t('nav.home')}</MenuItem>
           <MenuItem onClick={() => scrollToSection('about')}>{t('nav.about')}</MenuItem>
           {/*<MenuItem onClick={() => scrollToSection('skills')}>Skills</MenuItem>*/}
