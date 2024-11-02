@@ -35,10 +35,10 @@ const Hero = () => {
     }));
 
     const handleDownloadCV = () => {
-        const pdfUrl = '/EduardoPachecoCV.pdf';
+        const pdfUrl = `/EduardoPachecoCV-${t('hero.pdf')}.pdf`;
         const link = document.createElement('a');
         link.href = pdfUrl;
-        link.download = 'EduardoPachecoCV.pdf';
+        link.download = `EduardoPachecoCV-${t('hero.pdf')}.pdf`;
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -71,15 +71,9 @@ const Hero = () => {
                         </Box>
                     </Grid>
                     <Grid item xs={12} md={6} lg={8}>
-                        <Typography
-                            color="primary.main"
-                            variant="h1"
-                            textAlign="center"
-                            gutterBottom
-                        >
-                            {t('hero.title')}
-                        </Typography>
+                        <Typography color="primary.main" variant="h1" textAlign="center" gutterBottom>{t('hero.title')}</Typography>
                         <Typography color="primary.main" variant="h6" textAlign="center" gutterBottom>{t('hero.subtitle')}</Typography>
+                        <Typography color="primary.main" variant="subtitle1" textAlign="center" gutterBottom>{t('hero.text')}</Typography>
                         <Box mt={4}>
                             <Grid container spacing={2} justifyContent="center">
                                 <Grid item xs={12} sm={6} md={6} lg={4}>
