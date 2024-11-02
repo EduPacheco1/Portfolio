@@ -1,10 +1,12 @@
 {
     "hero": {
       "title": "Eduardo Pacheco",
+      "text": "Bem-vindo ao meu portfólio.",
       "subtitle": "Desenvolvedor Java | Spring Boot | REST API | Docker | BackEnd | FullStack",
       "downloadCV": "Baixar CV",
       "contactMe": "Contate-me",
-      "email": "Olá Eduardo,\n\n Estou entrando em contato pelo site do seu portfólio. "
+      "email": "Olá Eduardo,\n\n Estou entrando em contato pelo site do seu portfólio. ",
+      "pdf": "pt"
     },
 
     "nav": {
