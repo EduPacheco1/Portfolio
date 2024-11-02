@@ -3,12 +3,14 @@
       "title": "Eduardo Pacheco",
       "subtitle": "Desenvolvedor Java | Spring Boot | REST API | Docker | BackEnd | FullStack",
       "downloadCV": "Baixar CV",
-      "contactMe": "Contate-me"
+      "contactMe": "Contate-me",
+      "email": "Olá Eduardo,\n\n Estou entrando em contato pelo site do seu portfólio. "
     },
 
     "nav": {
       "home": "Home",
-      "about": "Sobre Mim",
+      "about": "Sobre",
+      "about2": "Sobre Mim",
       "projects": "Projetos"
     },
 
@@ -26,7 +28,7 @@
             "title": "Projeto API - Ecommerce",
             "description": "Estudo de REST API (BackEnd).",
             "techDescription": "Tecnologias utilizadas: Java, Spring, PostgreSQL, JWT e Swagger.",
-            "button1Label": "Código GitHub" 
+            "button1Label": "Código GitHub"
       },
 
       "project2": {
