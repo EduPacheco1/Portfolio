@@ -1,6 +1,9 @@
 import { Container, styled, Typography, Grid } from "@mui/material";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
+
+    const { t } = useTranslation();
 
     const SkillBox = styled("div")(({ theme }) => ({
         backgroundColor: "transparent",
@@ -51,7 +54,7 @@ const Skills = () => {
         <StyledSkills>
             <Container maxWidth="lg">
                 <Typography color="primary.contrastText" variant="h2" textAlign="center" gutterBottom>
-                    Skills
+                {t('about.skill')}
                 </Typography>
                 <Grid container spacing={2}>
                     {skills.map((skill, index) => (

@@ -4,6 +4,7 @@ import Image from "../../../../assets/images/e-commerce.jpg";
 import Image2 from "../../../../assets/images/java.jpg";
 import Image3 from "../../../../assets/images/react.jpg";
 import Image4 from "../../../../assets/images/reactnat.jpg";
+import { useTranslation } from "react-i18next";
 
 const StyledProject = styled("div")(({ theme }) => ({
     backgroundColor: theme.palette.primary.contrastText,
@@ -55,37 +56,38 @@ const handleButtonClick = (link: string | undefined): void => {
 };
 
 const Projects = () => {
+    const {t} = useTranslation();
     const projects = [
         {
-            title: "Project API - Ecommerce",
+            title: t('project1.title'),
             image: Image,
-            description: "REST API study project. (BackEnd)",
-            techDescription: "Built with: Java, Spring, PostgreSQL, JWT, and Swagger.",
-            button1Label: "View Code",
+            description: t('project1.description'),
+            techDescription: t('project1.techDescription'),
+            button1Label: t('project1.button1Label'),
             button1Link: "https://github.com/EduPacheco1/ProjetoAPIRest/tree/main",
         },
         {
-            title: "Project Sales - Java POO",
+            title: t('project2.title'),
             image: Image2,
-            description: "Java (POO) study project.",
-            techDescription: "Built with: Java and PostgreSQL",
-            button1Label: "View Code",
+            description: t('project2.description'),
+            techDescription: t('project2.techDescription'),
+            button1Label: t('project2.button1Label'),
             button1Link: "https://github.com/EduPacheco1/ProjetoPOO/tree/main/SerraTec-POO-Grupo3/ProjetoPooGrupo3",
         },
         {
-            title: "Project React - Ecommerce",
+            title: t('project3.title'),
             image: Image3,
-            description: "React study project. (FrontEnd)",
-            techDescription: "Built with: React, JavaScript, HTML, CSS and Node.",
-            button1Label: "View Code",
+            description: t('project3.description'),
+            techDescription: t('project3.techDescription'),
+            button1Label: t('project3.button1Label'),
             button1Link: "https://github.com/EduPacheco1/ProjetoReact/tree/main/TrabalhoSerratec-ReactWeb",
         },
         {
-            title: "Project React Native - CardGame",
+            title: t('project4.title'),
             image: Image4,
-            description: "React Native study project. (FrontEnd)",
-            techDescription: "Built with: React Native, TypeScript, HTML, CSS and Node.",
-            button1Label: "View Code",
+            description: t('project4.description'),
+            techDescription: t('project4.techDescription'),
+            button1Label: t('project4.button1Label'),
             button1Link: "https://github.com/EduPacheco1/ProjetoReactNative/tree/main/YuGiMarket",
         },
     ];

@@ -4,6 +4,7 @@ import DownloadingIcon from '@mui/icons-material/Downloading';
 import InboxIcon from '@mui/icons-material/Inbox';
 import StyledButton from "../../../../components/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackGround/AnimatedBackGround";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
 
@@ -53,6 +54,8 @@ const Hero = () => {
         window.location.href = emailLink;
     };
 
+    const {t} = useTranslation();
+
     return (
         <StyledHero>
             <Container maxWidth="lg">
@@ -74,21 +77,21 @@ const Hero = () => {
                             textAlign="center"
                             gutterBottom
                         >
-                            Eduardo Pacheco
+                            {t('hero.title')}
                         </Typography>
-                        <Typography color="primary.main" variant="h2" textAlign="center" gutterBottom>I'm a Software Engineer</Typography>
+                        <Typography color="primary.main" variant="h6" textAlign="center" gutterBottom>{t('hero.subtitle')}</Typography>
                         <Box mt={4}>
                             <Grid container spacing={2} justifyContent="center">
                                 <Grid item xs={12} sm={6} md={6} lg={4}>
                                     <StyledButton onClick={handleDownloadCV}>
                                         <DownloadingIcon />
-                                        <Typography>Download CV</Typography>
+                                        <Typography>{t('hero.downloadCV')}</Typography>
                                     </StyledButton>
                                 </Grid>
                                 <Grid item xs={12} sm={6} md={6} lg={4}>
                                     <StyledButton onClick={handleContactMe}>
                                         <InboxIcon />
-                                        <Typography>Contact me</Typography>
+                                        <Typography>{t('hero.contactMe')}</Typography>
                                     </StyledButton>
                                 </Grid>
                             </Grid>
