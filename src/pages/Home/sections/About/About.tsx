@@ -6,58 +6,100 @@ const StyledAbout = styled("div")(({ theme }) => ({
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-  [theme.breakpoints.up('xs')]: {
-    paddingTop: "100px",
-  },
-  [theme.breakpoints.up('md')]: {
-    paddingTop: "0px",
+  padding: theme.spacing(4),
+  [theme.breakpoints.down("md")]: {
+    padding: theme.spacing(2),
   }
 }));
 
-const Content = styled("div")({
-  padding: "20px",
+const Content = styled("div")(({ theme }) => ({
   width: "100%",
   maxWidth: "1200px",
-});
+  padding: theme.spacing(2),
+  [theme.breakpoints.down("sm")]: {
+    padding: theme.spacing(1),
+  }
+}));
 
 const Header = styled(Typography)(({ theme }) => ({
   marginBottom: theme.spacing(4),
+  [theme.breakpoints.down("sm")]: {
+    marginBottom: theme.spacing(2),
+    fontSize: "2rem"
+  }
 }));
 
 const ExperienceBox = styled(Box)(({ theme }) => ({
   backgroundColor: "transparent",
-  padding: theme.spacing(1),
+  padding: theme.spacing(2),
   border: `2px solid ${theme.palette.primary.contrastText}`,
   textAlign: "center",
-  alignItems: "center",
-  marginLeft: "320px",
-  width: "200px",
-  height: "150px", // Set a fixed height
+  height: "100%",
+  minHeight: "150px",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  margin: theme.spacing(1),
+  [theme.breakpoints.down("md")]: {
+    margin: theme.spacing(1, 0),
+  }
+}));
+
+const Divider = styled(Typography)(({ theme }) => ({
+  margin: theme.spacing(4, 0),
+  overflow: "hidden",
+  whiteSpace: "nowrap",
+  textAlign: "center",
+  "& span": {
+    display: "inline-block",
+    width: "100%",
+    borderBottom: `1px solid ${theme.palette.text.primary}`,
+    [theme.breakpoints.down("sm")]: {
+      width: "90%",
+    }
+  }
 }));
 
 const About = () => {
   const { t } = useTranslation();
+
   return (
     <StyledAbout>
       <Container maxWidth="lg">
         <Content>
-          <Header variant="h2" align="center" paddingTop={5} gutterBottom>
-          {t('nav.about2')}
+          <Header variant="h2" align="center" gutterBottom>
+            {t('nav.about2')}
           </Header>
 
           <Box sx={{ mt: 4, mb: 4 }}>
-            <Grid container spacing={0}>
-              <Grid item xs={6} md={3}>
+            <Grid 
+              container 
+              spacing={2} 
+              justifyContent="center"
+              alignItems="stretch"
+            >
+              <Grid item xs={12} sm={6} md={5} lg={4}>
                 <ExperienceBox>
-                  <Typography variant="h6">{t('about.exp')}</Typography>
+                  <Typography 
+                    variant="h6" 
+                    sx={{ mb: 2 }}
+                  >
+                    {t('about.exp')}
+                  </Typography>
                   <Typography variant="body2">
                     {t('about.descexp1')}
                   </Typography>
                 </ExperienceBox>
               </Grid>
-              <Grid item xs={6} md={3}>
+              
+              <Grid item xs={12} sm={6} md={5} lg={4}>
                 <ExperienceBox>
-                  <Typography variant="h6">{t('about.edu')}</Typography>
+                  <Typography 
+                    variant="h6" 
+                    sx={{ mb: 2 }}
+                  >
+                    {t('about.edu')}
+                  </Typography>
                   <Typography variant="body2">
                     {t('about.descexp2')}
                   </Typography>
@@ -66,17 +108,31 @@ const About = () => {
             </Grid>
           </Box>
 
-          <Typography variant="body1" align="center">
-            {t('about.descexp3')}<br /><br />
+          <Typography 
+            variant="body1" 
+            align="center" 
+            sx={{ 
+              mt: 4,
+              px: { xs: 2, sm: 4, md: 6 }
+            }}
+          >
+            {t('about.descexp3')}
           </Typography>
 
-          <Typography variant="body1" align="center">
-          {t('about.descexp4')}
+          <Typography 
+            variant="body1" 
+            align="center"
+            sx={{ 
+              mt: 4,
+              px: { xs: 2, sm: 4, md: 6 }
+            }}
+          >
+            {t('about.descexp4')}
           </Typography>
 
-          <Typography variant="body1" align="center" sx={{ mt: 4 }}>
-            _______________________________________________________________________________________________________________________________________________________________
-          </Typography>
+          <Divider>
+            <span />
+          </Divider>
         </Content>
       </Container>
     </StyledAbout>

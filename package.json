@@ -22,6 +22,7 @@
     "@mui/material": "^6.1.4",
     "gh-pages": "^6.2.0",
     "i18next": "^23.16.4",
+    "lucide-react": "^0.456.0",
     "material-ui-flags": "^1.2.4",
     "my-portfolio": "file:",
     "react": "^18.3.1",
