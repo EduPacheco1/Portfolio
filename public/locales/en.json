@@ -13,43 +13,43 @@
       "home": "Home",
       "about": "About",
       "about2": "About Me",
-      "projects": "Projetcs"
+      "projects": "Projects"
     },
 
     "about": {
         "exp": "Experience",
-        "descexp1": "2 year as Java Developer, 14 years in IT industry, 9 years as ERP Consultant",
+        "descexp1": "2 years as Java Developer, 14 years in IT industry (ERP)",
         "edu": "Education",
-        "descexp2": "Technologist in Systems Analysis and Development - TIC/SERRATEC Residency.",
-        "descexp3": "Java developer with over 14 years of IT experience, including 9 years as an ERP Consultant. Passionate about solving complex problems and learning new things. I have a broad market view, skills in back-end (Java, C#), REST APIs, databases (SQL, PostgreSQL) and front-end (JavaScript, React, CSS, HTML), with experience in project creation and coordination, ERP processes, among others.",
-        "descexp4": "I've participated in projects that covered all the technologies necessary for full-stack web development. In the final SERRATEC project in partnership with UFRJ, I worked on the back-end, from database structuring to front-end communication, using mainly JAVA, REST API and SPRING.",
+        "descexp2":  "Systems Analysis and Development - TIC/SERRATEC Residency.",
+        "descexp3": "14+ years in ERP management and development. Expert in process optimization, system implementation, and consulting. Successfully transitioned to backend development as a freelancer, building scalable systems with Java, Spring, SQL, and RESTful APIs. Always looking for new challenges and tech to refine solutions.",
+        "descexp4": "I've participated in projects that covered all the technologies necessary for full-stack web development. In the final SERRATEC project in partnership with UFRJ. I worked on the back-end, from database structuring to front-end communication, using mainly JAVA, REST API and SPRING.",
         "skill": "Skills"
       },
 
       "project1": {
             "title": "Project API - Ecommerce",
-            "description": "REST API study project. (BackEnd)",
+            "description": "REST API (BackEnd)",
             "techDescription": "Built with: Java, Spring, PostgreSQL, JWT and Swagger.",
             "button1Label": "View Code" 
       },
 
       "project2": {
             "title": "Project Sales - Java OOP",
-            "description": "Java (OOP) study project.",
+            "description": "Java (OOP)",
             "techDescription": "Built with: Java and PostgreSQL.",
             "button1Label": "View Code" 
       },
 
       "project3": {
             "title": "Project React - Ecommerce",
-            "description": "React/JavaScript study project (FrontEnd).",
+            "description": "React/JavaScript (FrontEnd).",
             "techDescription": "Built with: React, JavaScript, HTML, CSS and Node.",
             "button1Label": "View Code" 
       },
 
       "project4": {
             "title": "Project React Native - CardGame",
-            "description": "React Native/TypeScript study project (Mobile).",
+            "description": "React Native/TypeScript (Mobile).",
             "techDescription": "Built with: React Native, TypeScript, HTML, CSS and Node.",
             "button1Label": "View Code" 
       },

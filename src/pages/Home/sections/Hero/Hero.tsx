@@ -5,6 +5,8 @@ import InboxIcon from '@mui/icons-material/Inbox';
 import StyledButton from "../../../../components/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackGround/AnimatedBackGround";
 import { useTranslation } from "react-i18next";
+import ptPDF from '/public/EduardoPachecoCV-pt.pdf'
+import enPDF from '/public/EduardoPachecoCV-en.pdf'
 
 const Hero = () => {
 
@@ -35,13 +37,10 @@ const Hero = () => {
     }));
 
     const handleDownloadCV = () => {
-        const pdfUrl = `/EduardoPachecoCV-${t('hero.pdf')}.pdf`;
-        const link = document.createElement('a');
-        link.href = pdfUrl;
-        link.download = `EduardoPachecoCV-${t('hero.pdf')}.pdf`;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        const language = t('hero.pdf');
+        const pdfUrl = language === 'pt' ? ptPDF : enPDF;
+
+        window.open(pdfUrl, '_blank');
       };
 
     const handleContactMe = () => {

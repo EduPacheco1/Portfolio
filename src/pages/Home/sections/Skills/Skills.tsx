@@ -17,7 +17,7 @@ const Skills = () => {
         justifyContent: "center",
         gap:"10px",
         '&:hover': {
-          backgroundColor: theme.palette.secondary.light
+          backgroundColor: "transparent"
         }
       }));
 
