@@ -5,6 +5,7 @@
       "subtitle": "Desenvolvedor Java | Spring Boot | REST API | Docker | BackEnd | FullStack",
       "downloadCV": "Baixar CV",
       "contactMe": "Contate-me",
+      "subject": "Contato do Portfólio Eduardo Pacheco",
       "email": "Olá Eduardo,\n\n Estou entrando em contato pelo site do seu portfólio. ",
       "pdf": "pt"
     },
@@ -34,7 +35,7 @@
       },
 
       "project2": {
-            "title": "Projecto de Vendas - Java POO",
+            "title": "Projeto de Vendas - Java POO",
             "description": "Java (POO).",
             "techDescription": "Tecnologias utilizadas: Java e PostgreSQL.",
             "button1Label": "Código GitHub" 
