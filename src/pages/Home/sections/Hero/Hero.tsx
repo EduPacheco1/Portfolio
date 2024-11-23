@@ -5,8 +5,8 @@ import InboxIcon from '@mui/icons-material/Inbox';
 import StyledButton from "../../../../components/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackGround/AnimatedBackGround";
 import { useTranslation } from "react-i18next";
-import ptPDF from '/public/EduardoPachecoCV-pt.pdf'
-import enPDF from '/public/EduardoPachecoCV-en.pdf'
+import ptPDF from '../../../../../public/EduardoPachecoCV_pt.pdf';
+import enPDF from '../../../../../public/EduardoPachecoCV_en.pdf';
 
 const Hero = () => {
   const StyledHero = styled("div")(({ theme }) => ({

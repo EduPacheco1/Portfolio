@@ -57,7 +57,7 @@ const Skills = () => {
     { title: "SQL/NoSQL" },
     { title: "Docker" },
     { title: "Swagger" },
-    { title: "JavaScript" },
+    { title: "AWS" },
     { title: "TypeScript" },
     { title: "React" },
     { title: "Node" },
