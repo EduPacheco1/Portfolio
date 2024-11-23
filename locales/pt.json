@@ -19,11 +19,11 @@
 
     "about": {
       "exp": "Experiência",
-      "descexp1": "2 anos Desenvolvedor Java - 14 anos na área de TI (ERP)",
+      "descexp1": "4 anos como Desenvolvedor Java - 14 anos na área de TI (ERP)",
       "edu": "Educação",
       "descexp2": "Análise e Desenvolvimento de Sistemas - Residência TIC/SERRATEC.",
-      "descexp3": "14+ anos em gestão e desenvolvimento de soluções ERP. Experiência sólida em otimização de processos, implementação de sistemas e consultoria. Realizei uma transição estratégica para o desenvolvimento backend, atuando como freelancer nos últimos 2 anos. Construo sistemas escaláveis e eficientes utilizando Java, Spring, SQL e API RESTful. Busco constantemente novos desafios e tecnologias para aprimorar minhas soluções.",
-      "descexp4": "Participei de projetos que abrangeram as tecnologias necessárias para um desenvolvimento web completo. No projeto final do SERRATEC em parceria com a UFRJ, trabalhei na parte do Back-end, efetuando desde da estruturação do banco de dados a comunicação com o front, utilizando principalmente JAVA, REST API e SPRING.",
+      "descexp3": "14+ anos em gestão e desenvolvimento de soluções ERP. Experiência sólida em otimização de processos, implementação de sistemas e consultoria. Realizei uma transição estratégica para o desenvolvimento backend. Busco constantemente novos desafios e tecnologias para aprimorar minhas soluções.",
+      "descexp4": "Principais Tecnologias com Experiência: ● APIs RESTful com Java, Spring Framework, Arquitetura Cloud First; ● Spring Boot, Spring Data, Spring Web MVC; ● Persistência em Banco de Dados Relacionais SQL (PostgreSQL, MySQL) e não-relacionais (MongoDB); ● JPA, Hibernate; ● Metodologias ágeis (SCRUM/Kanban); ● Git, GitHub e GitFlow; ● Testes Unitários (JUnit e Mockito); ● Docker; ● Clean Code, DDD, Arquitetura e Design Patterns; ● Spring Security: Autenticação e autorização em aplicações usando JJWT; ● Microservices; Além disso, possuo conhecimentos adicionais nas seguintes tecnologias: ● Mensageria; ● AWS(EC2);",
       "skill": "Tecnologias"
     },
 

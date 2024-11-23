@@ -19,11 +19,11 @@
 
     "about": {
         "exp": "Experience",
-        "descexp1": "2 years as Java Developer, 14 years in IT industry (ERP)",
+        "descexp1": "4 years as Java Developer, 14 years in IT industry (ERP)",
         "edu": "Education",
         "descexp2":  "Systems Analysis and Development - TIC/SERRATEC Residency.",
-        "descexp3": "14+ years in ERP management and development. Expert in process optimization, system implementation, and consulting. Successfully transitioned to backend development as a freelancer, building scalable systems with Java, Spring, SQL, and RESTful APIs. Always looking for new challenges and tech to refine solutions.",
-        "descexp4": "I've participated in projects that covered all the technologies necessary for full-stack web development. In the final SERRATEC project in partnership with UFRJ. I worked on the back-end, from database structuring to front-end communication, using mainly JAVA, REST API and SPRING.",
+        "descexp3": "14+ years in ERP management and development. Solid experience in process optimization, system implementation, and consulting. Strategically transitioned to backend. Build scalable and efficient systems. Constantly seeking new challenges and technologies to enhance my solutions.",
+        "descexp4": "Key Technologies and Experience: ● RESTful APIs with Java, Spring Framework, and Cloud-First architecture; ● Proficient in Spring Boot, Spring Data, and Spring Web MVC frameworks;  ● Experience with relational databases (PostgreSQL, MySQL, SQL Server) and NoSQL databases (MongoDB);  ● Skilled in JPA and Hibernate for object-relational mapping;  ● Adept in agile methodologies (SCRUM/Kanban);  ● Proficiency in Git, GitHub, and GitFlow for version control;  ● Experience writing unit tests using JUnit and Mockito;  ● Docker for containerization and deployment;  ● Adheres to Clean Code, DDD, and architectural design patterns;  ● Spring Security for implementing authentication and authorization using JJWT;  ● Microservices architecture for building scalable and maintainable applications; Additional Skills: ● Messaging systems; ● AWS (EC2) cloud services;",
         "skill": "Skills"
       },
 
