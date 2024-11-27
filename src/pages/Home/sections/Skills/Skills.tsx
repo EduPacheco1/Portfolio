@@ -28,7 +28,7 @@ const SkillBox = styled("div")(({ theme }) => ({
   transition: "transform 0.2s ease-in-out, background-color 0.2s ease-in-out",
   '&:hover': {
     backgroundColor: "rgba(255, 255, 255, 0.05)",
-    transform: "translateY(-2px)",
+    transform: "translateY(-2px)"
   }
 }));
 
